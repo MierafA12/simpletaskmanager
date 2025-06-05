@@ -68,6 +68,7 @@ A minimal **React Native** task manager app that allows users to **add**, **view
 
 ```
 simpletaskmanager/
+├── assets/
 ├── components/
 │   └── footer.jsx
 ├── Screens/
