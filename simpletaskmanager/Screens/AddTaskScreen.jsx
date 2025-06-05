@@ -26,7 +26,6 @@ export default function AddTaskScreen({ navigation, addTask }) {
 
   return (
     <View style={styles.container}>
-      {/* Back button inside UI */}
       <TouchableOpacity
         style={styles.backButton}
         onPress={() => navigation.goBack()}

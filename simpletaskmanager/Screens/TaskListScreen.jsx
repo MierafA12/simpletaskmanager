@@ -45,11 +45,11 @@ export default function TaskListScreen({ navigation, tasks, toggleCompleted, del
 
   return (
     <View style={styles.container}>
-      {/* Back Button */}
+
       <TouchableOpacity
-        style={styles.backButton}
-        onPress={() => navigation.goBack()}
-      >
+  style={styles.backButton}
+  onPress={() => navigation.replace('Welcome')} 
+>
         <Ionicons name="arrow-back" size={24} color={BUTTON_COLOR} />
         <Text style={styles.backButtonText}>Back</Text>
       </TouchableOpacity>
@@ -125,13 +125,21 @@ const styles = StyleSheet.create({
     borderBottomColor: '#ddd',
     borderBottomWidth: 1,
   },
-  taskText: { fontSize: 18, color: '#333' },
-  completed: { textDecorationLine: 'line-through', color: 'gray' },
+  taskText: { 
+    fontSize: 18, 
+    color: '#333' 
+  },
+  completed: {
+     textDecorationLine: 'line-through',
+     color: 'gray'
+     },
   deleteButton: {
     backgroundColor: BUTTON_COLOR,
     paddingHorizontal: 10,
     paddingVertical: 4,
     borderRadius: 4,
   },
-  deleteButtonText: { color: 'white', fontWeight: 'bold' },
+  deleteButtonText: {
+     color: 'white', 
+     fontWeight: 'bold' },
 });

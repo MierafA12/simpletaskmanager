@@ -3,14 +3,10 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Alert } from 'react-native';
-
-
 import AsyncStorage from '@react-native-async-storage/async-storage';
-
 import WelcomeScreen from './Screens/WelcomeScreen';
 import TaskListScreen from './Screens/TaskListScreen';
 import AddTaskScreen from './Screens/AddTaskScreen';
-
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 const Stack = createNativeStackNavigator();
@@ -56,7 +52,7 @@ function TasksTabs({ tasks, toggleCompleted, deleteTask, addTask }) {
 export default function App() {
   const [tasks, setTasks] = useState([]);
 
-  // Load tasks from AsyncStorage on mount
+
   useEffect(() => {
   const loadTasks = async () => {
     try {
