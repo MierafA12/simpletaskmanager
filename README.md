@@ -1,4 +1,6 @@
+Here’s a simple and clear `README.md` for your React Native Task Manager app:
 
+---
 
 ## 📋 Simple Task Manager App
 
@@ -58,8 +60,9 @@ A minimal **React Native** task manager app that allows users to **add**, **view
 4. Run the app
 
    ```bash
-  npx expo start
-  
+   npx react-native run-android
+   # or
+   npx react-native run-ios
    ```
 
 ---
