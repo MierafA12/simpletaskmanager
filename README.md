@@ -1,0 +1,2 @@
+# simpletaskmanager
+for kuraz intern 
