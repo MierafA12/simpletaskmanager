@@ -90,4 +90,3 @@ simpletaskmanager/
 
 ---
 
-Let me know if you want to include screenshots or instructions for contributors.
