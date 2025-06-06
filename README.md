@@ -29,13 +29,6 @@ A minimal **React Native** task manager app that allows users to **add**, **view
 
 ### 🚀 Screens
 
-* **Welcome Screen** – Landing screen with navigation to task list
-* **Task List Screen** – Shows all tasks (incomplete & completed), and supports toggling and deleting
-* **Add Task Screen** – Allows users to enter and validate new tasks
-
----
-
-
 * **Welcome Screen** – Landing screen with navigation to task list  
   ![Welcome Screen](./simpletaskmanager/assets/welcome.jpg)
 
